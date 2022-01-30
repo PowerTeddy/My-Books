@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="https://i.imgur.com/qHlUah0.png">
+        <link rel="shortcut icon" href="https://i.imgur.com/qHlUah0.png" type="image/x-icon">
+        <link rel="apple-touch-icon" href="https://i.imgur.com/qHlUah0.png" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;500&family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+        <title id="pagetitle">Kendrick's Library</title>
+
+        <!--<link rel="canonical" href="https://kendricknguyen-books.glitch.me/">-->
+        <meta name="description" content="A collection of books written by Kendrick Nguyen. Come check it out!">
+        <meta name="robots" content="index,follow">
+        <meta property="og:title" content="Kendrick Nguyen's Books">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://kendricknguyen-books.glitch.me/">
+        <meta property="og:description" content="A collection of books written by Kendrick Nguyen. Come check it out!">
+        <meta property="og:image" content="https://i.imgur.com/qHlUah0.png">
+        <meta name="twitter:card" content="summary">
+
+        <link rel="stylesheet" href="/style.css">
+        <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+        <script src="/script.js"></script>
+        <script src="https://kit.fontawesome.com/799e3a2f9e.js" crossorigin="anonymous"></script>
+    </head>
+  
+    <body>
+        <h1 id="Title">My Books</h1>
+        <img id="seperator" src="/pictures/divider.png">
+        <div id="main">
+            <ul id="book-list">
+                <li class="book-thumb" onclick="openbook(1)">
+                    <img src="/pictures/In our midst among us.png">
+                    <h3>In our midsts among us</h3>
+                    <h6 class="authors">By Kendrick Nguyen</h6>
+                </li>
+                <li class="book-thumb" onclick="openbook(2)">
+                    <img src="/pictures/The 87.jpg">
+                    <h3>The 87</h3>
+                    <h6 class="authors">By Kendrick Nguyen</h6>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <span>©2022 Kendrick Nguyen</span>
+        </footer>
+    </body>
+</html>
