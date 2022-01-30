@@ -90,6 +90,11 @@ function openbook(number) {
         })
         .catch(err => {
             console.log(err)
+            // Display error
+            const div = document.createElement('div');
+            div.className = 'error';
+            div.appendChild(document.createTextNode(err.message));
+            document.querySelector('body').insertBefore(div, canvas);
             // Remove bottom bar
             document.querySelector('.bottom-bar').style.display = 'none';
         });
