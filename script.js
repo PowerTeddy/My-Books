@@ -1,12 +1,12 @@
 const library = [
     {
         "Title":"In our midsts among us",
-        "pdf":"https://drive.google.com/file/d/1vpRIGFQjg1m2Uj-Ho2mEljtfFoBBKhof/view?usp=sharing",
+        "pdf":"https://cdn.glitch.global/9463f118-99ec-40f3-8c82-8b62e60454a0/in-our-midst-among-us.pdf?v=1643584418999",
         "description":"Captain Stewart is sent to investigate a dead corpse at a school.\nWhat will he find?\nWhat will happen?\nFind out in this thriller short-story"
     },
     {
         "Title":"The 87",
-        "pdf":"https://drive.google.com/file/d/1r0OniyJ-CxtkiXkvwux7TPmnjRiBlLzU/view?usp=sharing",
+        "pdf":"https://cdn.glitch.global/9463f118-99ec-40f3-8c82-8b62e60454a0/the-87.pdf?v=1643584465811",
         "description":"Samantha is stuck in the past with the incident that happened long ago. \"The 87\", that's what the journals called it. An incident with a mysterious bald man. His biggest act. And the horrific magic behind him."
     }
 ]
@@ -17,7 +17,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.w
 
 function openbook(number) {
     const book = library[number - 1]
-    const url = "/in-our-midst-among-us.pdf"
+    const url = book.pdf//"/in-our-midst-among-us.pdf"
 
     document.getElementById("Title").innerHTML = book.Title
     document.getElementById("pagetitle").innerHTML = book.Title
