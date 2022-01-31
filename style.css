@@ -36,6 +36,7 @@ ul {
     border: 1px solid transparent;
     margin: 15px;
     transition: border 500ms;
+    cursor: pointer;
 }
 
 .book-thumb:hover {
@@ -88,6 +89,7 @@ ul {
     border: solid 1px #393939;
     border-radius: 5px;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 
 .arrow:hover {
@@ -113,6 +115,7 @@ ul {
     border-radius: 5px;
     margin-bottom: 25px;
     font-size: large;
+    cursor: pointer;
 }
 
 .back:hover {
