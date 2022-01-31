@@ -1,6 +1,6 @@
 const library = [
     {
-        "Title":"In our midsts among us",
+        "Title":"In our midst among us",
         "pdf":"https://cdn.glitch.global/9463f118-99ec-40f3-8c82-8b62e60454a0/in-our-midst-among-us.pdf?v=1643584418999",
         "description":"Captain Stewart is sent to investigate a dead corpse at a school.\nWhat will he find?\nWhat will happen?\nFind out in this thriller short-story"
     },
@@ -17,7 +17,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.w
 
 function openbook(number) {
     const book = library[number - 1]
-    const url = book.pdf//"/in-our-midst-among-us.pdf"
+    const url = book.pdf
 
     document.getElementById("Title").innerHTML = book.Title
     document.getElementById("pagetitle").innerHTML = book.Title
